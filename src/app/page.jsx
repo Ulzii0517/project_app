@@ -1,12 +1,14 @@
 "use client";
 
-import { LandingPage } from "@/components/index";
-import Image from "next/image";
+import { About, Card, Header, Intro } from "@/components";
 
 export default function Home() {
   return (
     <div>
-      <LandingPage />
+      <Header />
+      <Intro />
+      <Card />
+      <About />
     </div>
   );
 }
