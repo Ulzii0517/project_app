@@ -1,6 +1,6 @@
 "use client";
 
-import { About, Card, Header, Intro } from "@/components";
+import { About, Card, Header, Intro, Plan } from "@/components";
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
       <Intro />
       <Card />
       <About />
+      <Plan/>
     </div>
   );
 }
