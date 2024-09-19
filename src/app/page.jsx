@@ -1,6 +1,14 @@
 "use client";
 
-import { About, Card, Header, Intro, Plan } from "@/components";
+import {
+  About,
+  Card,
+  Customers,
+  Header,
+  Intro,
+  Network,
+  Plan,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -9,7 +17,9 @@ export default function Home() {
       <Intro />
       <Card />
       <About />
-      <Plan/>
+      <Plan />
+      <Network />
+      <Customers />
     </div>
   );
 }
